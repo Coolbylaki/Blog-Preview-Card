@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="en">
 			<body
-				className={`${figtree.className} bg-card-yellow min-h-screen flex justify-center items-center`}
+				className={`${figtree.className} bg-card-yellow h-dvh flex justify-center items-center`}
 				suppressHydrationWarning>
 				{children}
 			</body>
