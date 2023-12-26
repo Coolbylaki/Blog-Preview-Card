@@ -4,12 +4,12 @@ import Profile from "../../public/image-avatar.webp";
 
 export default function Home() {
 	return (
-		<main className="max-w-sm">
+		<main className="max-w-md">
 			<div className="bg-card-white p-6 m-6 rounded-xl flex flex-col gap-4 border border-card-black card">
 				<Image
 					src={Article}
 					alt="article illustration"
-					className="rounded-xl h-[200px] object-cover self-center"
+					className="rounded-xl h-[200px] object-cover self-center w-full"
 				/>
 				<div className="bg-card-yellow px-2 py-1 rounded-md w-[30%] text-center">
 					<p className="font-extrabold text-sm">Learning</p>
